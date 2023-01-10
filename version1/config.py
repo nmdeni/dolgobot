@@ -2,16 +2,16 @@ users_list = [
     {
         'name':'Alex',
         'sum': 1000,
-        'status' : True,
+        'status' : 'я',
     },
     {
         'name':'Neo',
         'sum': 320,
-        'status' : False,
+        'status' : 'мне',
     },
     {
         'name':'Dima',
         'sum': 4500,
-        'status' : True,
+        'status' : 'я',
     },
 ]
