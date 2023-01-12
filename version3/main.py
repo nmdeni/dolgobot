@@ -1,6 +1,7 @@
 import psycopg2
 from config import conf_host,conf_name,conf_password,conf_dbname
 from listDb import list_output
+# from innerDb import 
 
 def main(host,name,db,password):
     try:
