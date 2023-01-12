@@ -2,7 +2,7 @@ import psycopg2
 from config import *
 from listDb import list_output
 from insertDb import insert_db
-from deldateDb  import deldateDb
+from delDateDb  import delDateDb
 
 def main(host,name,db,password):
     try:
@@ -27,7 +27,7 @@ def main(host,name,db,password):
                     if user_command2 == 1:
                         insert_db(cur)
                     elif user_command2 == 2:
-                        deldateDb(cur)
+                        delDateDb(cur)
                     elif user_command2 == 3:
                         continue
                     else:

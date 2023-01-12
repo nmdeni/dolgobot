@@ -1,4 +1,4 @@
-def deldateDb(db_cursor):
+def delDateDb(db_cursor):
     result_insert = ''
 
     try:
