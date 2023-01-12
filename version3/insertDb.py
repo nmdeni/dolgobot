@@ -2,7 +2,7 @@ def insert_db(db_cursor):
     result_insert = ''
 
     try:
-        user_name = input('Введите ваше имя -> ')
+        user_name = input('Введите имя -> ')
         user_sum = int(input('Введите сумму долга -> '))
         user_status = int(input('Введите чей долг (1-вы 2-вам) -> '))
 
