@@ -19,7 +19,7 @@ def main(host,name,db,password):
                     list_output(cur)
                     print()
                 elif user_command == 2:
-                    return print("Работа с данными")
+                    return print("В РАБОТЕ...")
                 elif user_command == 3:
                     break 
                 else:
